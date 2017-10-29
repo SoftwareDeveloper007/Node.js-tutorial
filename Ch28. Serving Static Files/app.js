@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/contact', function (req, res) {
-    res.render('contact')
+    res.render('contact');
 });
 
 app.get('/profile/:name', function (req, res) {
